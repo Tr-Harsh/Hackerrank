@@ -5,7 +5,6 @@ void levelOrder(node * root) {
     map<int , vector<int> > m;
     queue<pair<node* , int>> q;
     q.push(make_pair(root,0));
-    vector<int> v;
     while(!q.empty()){
         pair<node*,int> p =q.front();
         node* Node = p.first;
