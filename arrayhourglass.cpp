@@ -3,7 +3,7 @@
 using namespace std;
 int maxsize=6;
 int offset=2;
-int maxhourglass=-63;
+int maxhourglass=-1000;
 void hourglass(int i,int j,vector< vector<int> >mat){
     int sum=0;
     for(int k=j;k<=j+offset;k++){
